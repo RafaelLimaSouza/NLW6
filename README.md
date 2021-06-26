@@ -1,46 +1,145 @@
-# Getting Started with Create React App
+<div align="center">
+<img src="https://img.shields.io/badge/licence-MIT-green"/><img src="https://img.shields.io/badge/NLW-06-green"/><img src="https://img.shields.io/badge/NLW-Together-green"/>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br/>
 
-## Available Scripts
+# <center>Letmeask</center>
 
-In the project directory, you can run:
+<br/>
 
-### `yarn start`
+![Letmeask](/src/assets/images/home.jpeg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<div align="center">
+<a href="#Objetivo"><img src="https://img.shields.io/badge/-Sobre-%23835afd"></a>
+<a href="#Features"><img src="https://img.shields.io/badge/-Features-%23835afd"></a>
+<a href="#Tecnologias"><img src="https://img.shields.io/badge/%20-Tecnologias-%23835afd"></a>
+<a href="#Libs"><img src="https://img.shields.io/badge/%20-Libs-%23835afd"></a>
+<a href="#Requisitos"><img src="https://img.shields.io/badge/%20-Pr%C3%A9--requisitos-%23835afd"></a>
+<a href="#Execucao"><img src="https://img.shields.io/badge/%20-Como%20executar-%23835afd"></a>
+<a href="#Autor"><img src="https://img.shields.io/badge/%20-Autor-%23835afd"></a>
+</div>
 
-### `yarn test`
+<div name="Objetivo">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### :dart: Objetivo
 
-### `yarn build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p fonts-size="24px">Letmeask foi o projeto proposto pela equipe da Rocketseat na NLW6 (Together).</p>
+<p>O objetivo do app é criar um ambiente interativo de Q&A (Perguntas e Respostas).</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/>
 
-### `yarn eject`
+<div>
+<div name="Features">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### :pushpin: Features
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [x] Autenticação com google
+- [x] Criação de sala
+- [x] Divisão em dois ambientes (admin e user)
+- [x] Criação de perguntas
+- [x] Marcação de Highlight quando a pergunta estiver sendo respondida (somente admin)
+- [x] Dar like na pergunta
+- [x] Excluir a pergunta (somente admin)
+- [x] Encerrar a sala (somente admin)
 
-## Learn More
+<br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+</div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<div name="Tecnologias>
+
+### :hammer: Tecnologias utilizadas:
+
+---
+
+<br/>
+
+- [ReactJs](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Sass](https://www.typescriptlang.org/)
+
+<br/>
+
+</div>
+
+<div name="Libs">
+
+### :cherries: Libs ou Serviços externos
+
+---
+
+<br/>
+
+:heavy_check_mark: [Create-React-App](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
+:heavy_check_mark: [Firebase Authentication](https://firebase.google.com/docs/auth)
+:heavy_check_mark: [Firebase Realtime Database](https://firebase.google.com/products/realtime-database?gclid=Cj0KCQjw_dWGBhDAARIsAMcYuJyfpT3D_gW4oYzBAJAykQCoGjk-1ZKkNNUCpg_QJu6yMXUgCi6kPd8aAs29EALw_wcB&gclsrc=aw.ds)
+:heavy_check_mark: [classnames](https://www.npmjs.com/package/classnames)
+
+<br/>
+
+</div>
+
+<div name="Requisitos">
+
+### :clipboard: Pré-requisitos
+
+---
+
+Antes de começar, será necessário instalar o [Node.js](https://nodejs.org/en/download/). Com isso você terá acesso ao gerenciador de pacotes Npm, porém você pode optar pelo [yarn](https://yarnpkg.com/).
+
+<br/>
+
+</div>
+
+<div name="Execucao">
+
+### :rocket: Como executar o projeto:
+
+---
+
+<br/>
+
+```bash
+# Abra o seu terminal:
+
+# Clone o repositório para sua máquina através do comando:
+$ git clone https://github.com/RafaelLimaSouza/NLW6.git
+
+# Entre no diretório</p>
+$ cd NLW6
+
+# Instale as dependências do projeto</p>
+$ yarn ou npm install
+
+# Dê o start em sua aplicação</p>
+$ yarn start ou npm run start
+
+# Abra o seu navegador e acesse o socket http://localhost:3000
+```
+
+<br/>
+
+</div>
+
+<div name="Autor">
+
+### :see_no_evil: Autor
+
+---
+
+<br/>
+
+<strong>by Rafael Lima.</strong>
+
+</div>
