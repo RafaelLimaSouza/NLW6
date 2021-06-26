@@ -59,7 +59,7 @@ Letmeask
 
 </div>
 
-<div name="Tecnologias>
+<div name="Tecnologias">
 
 ### :hammer: Tecnologias utilizadas:
 
